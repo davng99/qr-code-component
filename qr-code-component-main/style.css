@@ -1,0 +1,44 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(168, 199, 219);
+}
+
+.body-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.253);
+  background-color: white;
+  border-radius: 25px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.container img {
+  margin-top: 15px;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.desc {
+  padding: 10px 20px;
+}
+
+.desc p {
+  font-size: 15px;
+}
+
+.attribution {
+  margin-top: 20px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
